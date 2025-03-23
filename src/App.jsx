@@ -1,9 +1,8 @@
 // App.jsx
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-
-const Home = () => <h2>Home Page</h2>;
-const About = () => <h2>About Page</h2>;
+import Home from './components/Home';
+import About from './components/About';
 
 const App = () => {
   return (
